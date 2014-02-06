@@ -1,6 +1,7 @@
-<section>
+<section data-ng-controller="GasCtrl" data-ng-init="find()">
 	<div>
 		<h2>list of receipts</h2>
+		<div>{{ articles | json }}</div>
 		<ul>
 			<li ng-repeat="r in receipts">
 				{{ r | json }}

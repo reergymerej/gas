@@ -18,8 +18,7 @@ angular.module('mean').config(['$routeProvider',
             })
 
             .when('/gas', {
-                templateUrl: 'views/gas.html',
-                controller: 'GasCtrl'
+                templateUrl: 'views/gas.html'
             })
 
             .when('/', {
